@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FEFBF4"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#EDA900"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/extBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="반갑습니다!"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:text="한결을 통해 매일 매일 훈련해서 면접을 통과해봅시다. "
+                android:textColor="#333333"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"
+                android:text="아이디"
+                android:textColor="#333333"/>
+
+            <EditText
+                android:id="@+id/idEtx"
+                android:layout_width="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:hint="아이디 입력" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:text="비밀번호"
+                android:textColor="#333333"/>
+            <EditText
+                android:id="@+id/pwdEtx"
+                android:layout_width="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:layout_gravity="center"
+                android:hint="비밀번호 입력"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="이름"
+                android:layout_marginTop="5dp"
+                android:textColor="#333333"/>
+
+            <EditText
+                android:id="@+id/nameEtx"
+                android:layout_width="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:hint="이름 입력" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"
+                android:text="관심분야를 선택해주세요."
+                android:textColor="#333333"/>
+
+
+            <CheckBox
+                android:id="@+id/ch0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="경영·인사·총무·사무"/>
+
+            <CheckBox
+                android:id="@+id/ch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="재무·회계·경리"/>
+            <CheckBox
+                android:id="@+id/ch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="금융·보험·증권"/>
+            <CheckBox
+                android:id="@+id/ch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="마케팅·광고·홍보·조사"/>
+            <CheckBox
+                android:id="@+id/ch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="무역·영업·판매·매장관리"/>
+            <CheckBox
+                android:id="@+id/ch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="고객상담·TM"/>
+            <CheckBox
+                android:id="@+id/ch6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전문직·법률·인문사회·임원"/>
+            <CheckBox
+                android:id="@+id/ch7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="의료·간호·보건·복지"/>
+            <CheckBox
+                android:id="@+id/ch8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교육·교사·강사·교직원"/>
+            <CheckBox
+                android:id="@+id/ch9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미디어·문화·스포츠"/>
+            <CheckBox
+                android:id="@+id/ch10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서비스·여행·숙박·음식·미용·보안"/>
+            <CheckBox
+                android:id="@+id/ch11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="유통·물류·운송·운전"/>
+            <CheckBox
+                android:id="@+id/ch12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="디자인"/>
+            <CheckBox
+                android:id="@+id/ch13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="인터넷·IT·통신·모바일·게임"/>
+            <CheckBox
+                android:id="@+id/ch14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전자·기계·기술·화학·연구개발"/>
+            <CheckBox
+                android:id="@+id/ch15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="건설·건축·토목·환경"/>
+            <CheckBox
+                android:id="@+id/ch16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="생산·정비·기능·노무"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/joinBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:text="가입하기" />
+
+</LinearLayout>

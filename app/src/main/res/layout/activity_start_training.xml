@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0"
+    tools:context="com.naver.naverspeech.client.StartTrainingActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDA900"
+        android:minHeight="?attr/actionBarSize">
+
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="한결"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/vocaI"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/vocabulary" />
+
+            <TextView
+                android:id="@+id/vocaT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="11dp"
+                android:layout_toEndOf="@+id/vocaI"
+                android:layout_toRightOf="@+id/vocaI"
+                android:text="어휘력"
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/voacaB"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@+id/vocaC"
+                android:layout_toEndOf="@+id/vocaC"
+                android:layout_toRightOf="@+id/vocaC"
+                android:background="@drawable/border"
+                android:text="START"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/vocaC"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vocaT"
+                android:layout_alignStart="@+id/vocaT"
+                android:layout_below="@+id/vocaT"
+                android:text="어휘력은 5가지의 단어를 사용할 수 있는지를 훈련하는 영역입니다. " />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f0f0f0"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/proI"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/ts2" />
+
+            <TextView
+                android:id="@+id/proT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="11dp"
+                android:layout_toEndOf="@+id/proI"
+                android:layout_toRightOf="@+id/proI"
+                android:text="발음"
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/proB"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/proT"
+                android:layout_toEndOf="@+id/proC"
+                android:layout_toRightOf="@+id/proC"
+                android:background="@drawable/border"
+                android:text="START"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/proC"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/proT"
+                android:layout_alignStart="@+id/proT"
+                android:layout_below="@+id/proT"
+                android:text="발음은 정확한 발음으로 면접을 응하도록 훈련하는 영역입니다. " />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f0f0f0"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/conI"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/contin" />
+
+            <TextView
+                android:id="@+id/conT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="11dp"
+                android:layout_toEndOf="@+id/conI"
+                android:layout_toRightOf="@+id/conI"
+                android:text="계속성"
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/conB"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/conT"
+                android:layout_toEndOf="@+id/conC"
+                android:layout_toRightOf="@+id/conC"
+                android:background="@drawable/border"
+                android:text="START"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/conC"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/conT"
+                android:layout_alignStart="@+id/conT"
+                android:layout_below="@+id/conT"
+                android:text="계속성은 말이 끊이지 않고 유창하게 대답할 수 있는지를 훈련하는 영역입니다" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f0f0f0"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/speedI"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/ts4" />
+
+            <TextView
+                android:id="@+id/speedT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="11dp"
+                android:layout_toEndOf="@+id/speedI"
+                android:layout_toRightOf="@+id/speedI"
+                android:text="속도"
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/speedB"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/speedT"
+                android:layout_toEndOf="@+id/speedC"
+                android:layout_toRightOf="@+id/speedC"
+                android:background="@drawable/border"
+                android:text="START"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/speedC"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/speedT"
+                android:layout_alignStart="@+id/speedT"
+                android:layout_below="@+id/speedT"
+                android:text="속도는 1분 동안 적당한  단어의 수를 말하는 훈련을 하는 영역입니다. " />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f0f0f0"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/nonI"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/ts5" />
+
+            <TextView
+                android:id="@+id/nonT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="11dp"
+                android:layout_toEndOf="@+id/nonI"
+                android:layout_toRightOf="@+id/nonI"
+                android:text="논리성"
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/nonB"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/nonT"
+                android:layout_toEndOf="@+id/nonC"
+                android:layout_toRightOf="@+id/nonC"
+                android:background="@drawable/border"
+                android:text="START"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/nonC"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/nonT"
+                android:layout_alignStart="@+id/nonT"
+                android:layout_below="@+id/nonT"
+                android:text="논리성은 주어진 질문에 논리적으로 대답하도록  훈련하는 영역입니다. " />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

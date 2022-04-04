@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="어휘력"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:textColor="@color/color_gray"
+            android:paddingTop="10dp"
+            />
+
+          <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv1"
+            android:paddingTop="20dp"/>
+        </RelativeLayout>
+
+             <com.xw.repo.BubbleSeekBar
+                android:id="@+id/seekbar_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="발음"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15dp"
+                    android:textColor="@color/color_gray"
+                    android:paddingTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv2"
+                    android:paddingTop="20dp"/>
+        </RelativeLayout>
+
+       <com.xw.repo.BubbleSeekBar
+            android:id="@+id/seekbar_2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="계속성"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15dp"
+                    android:textColor="@color/color_gray"
+                    android:paddingTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv3"
+                    android:paddingTop="20dp"/>
+        </RelativeLayout>
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/seekbar_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="속도"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:textColor="@color/color_gray"
+            android:paddingTop="10dp"
+            />
+
+        <CheckBox
+            android:id="@+id/check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv4"
+            android:paddingTop="20dp"/>
+        </RelativeLayout>
+
+             <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/seekbar_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="논리력"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15dp"
+                    android:textColor="@color/color_gray"
+                    android:paddingTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv5"
+                    android:paddingTop="20dp"/>
+        </RelativeLayout>
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/seekbar_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="체크박스에 표시한 영역만 점수 조회에 반영 됩니다."
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="문제 보기"
+            android:layout_gravity="center"
+            android:background="@color/color_gray_light"
+            android:textColor="@color/colorPrimary2"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"/>
+
+
+
+</LinearLayout>

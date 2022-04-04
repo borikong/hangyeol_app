@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naver.naverspeech.client"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/searchjob"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/searchjob"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".soojeong.MainActivity3"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SpeechActivity" />
+        <activity android:name=".DailyTestActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".seohyun.MainActivity2" />
+        <activity android:name=".seohyun.Record_calendar" />
+        <activity android:name=".seohyun.Record_score" />
+        <activity android:name=".soojeong.FeedbackActivity" />
+        <activity android:name=".soojeong.SujeongTestActivity" />
+        <activity android:name=".soojeong.AddInterviewActivity" />
+        <activity android:name=".soojeong.testActivity" />
+        <activity android:name=".soojeong.WriteActivity" />
+        <activity android:name=".soojeong.FeddbackDetailActivity" />
+        <activity android:name=".TrainingActivity" />
+        <activity android:name=".ResultActivity2" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StartTrainingActivity" />
+        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".dayeong.VirtualInterview_faceActivitity"/>
+        <activity android:name=".dayeong.VirtualInterview_ResultActivity"/>
+        <activity android:name=".dayeong.Board_AddInterviewActivity"/>
+        <activity android:name=".dayeong.Board_ModifyMboardActivity"/>
+        <activity android:name=".dayeong.BoardActivity"/>
+        <activity android:name=".dayeong.Board_AddmBoardActivity"/>
+        <activity android:name=".dayeong.Board_InterviewDetailActivity"/>
+        <activity android:name=".dayeong.Board_MboardDetailActivity"/>
+        <activity android:name=".dayeong.TestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

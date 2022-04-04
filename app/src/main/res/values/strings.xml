@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">한결</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_start">Start</string>
+    <string name="str_stop">Stop</string>
+
+    <string-array name="category">
+        <item>경영·인사·총무·사무</item>
+        <item>재무·회계·경리</item>
+        <item>금융·보험·증권</item>
+        <item>마케팅·광고·홍보·조사</item>
+        <item>무역·영업·판매·매장관리</item>
+        <item>고객상담·TM</item>
+        <item>전문직·법률·인문사회·임원</item>
+        <item>의료·간호·보건·복지</item>
+        <item>교육·교사·강사·교직원</item>
+        <item>미디어·문화·스포츠</item>
+        <item>서비스·여행·숙박·음식·미용·보안</item>
+        <item>유통·물류·운송·운전</item>
+        <item>디자인</item>
+        <item>인터넷·IT·통신·모바일·게임</item>
+        <item>전자·기계·기술·화학·연구개발</item>
+        <item>건설·건축·토목·환경</item>
+        <item>생산·정비·기능·노무</item>
+    </string-array>
+</resources>
+
+
