@@ -20,7 +20,8 @@
 
 ![image](https://user-images.githubusercontent.com/32058390/161821658-ef499950-ac6e-4a2d-a924-6c22652907d9.png)
 - 분석 결과
- ![image](https://user-images.githubusercontent.com/32058390/161823039-fd81fa1d-b36d-4ebf-acfb-7ed425b0f463.pn
+
+ ![image](https://user-images.githubusercontent.com/32058390/161823039-fd81fa1d-b36d-4ebf-acfb-7ed425b0f463.pnㅎ)
 **4. 기록장
 
 ![image](https://user-images.githubusercontent.com/32058390/161824616-ca91aede-d088-43ba-9aa5-75980bf02ef7.png)
