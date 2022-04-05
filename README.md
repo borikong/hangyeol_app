@@ -20,12 +20,11 @@
   ![image](https://user-images.githubusercontent.com/32058390/161816443-d7148de3-8ac2-4d43-a349-fffdccfb0ae7.png)
 
 **3. 가상 면접**
-
-![image](https://user-images.githubusercontent.com/32058390/161821658-ef499950-ac6e-4a2d-a924-6c22652907d9.png)
+![image](https://user-images.githubusercontent.com/32058390/161827098-95077820-f89d-4e0e-946d-3fc5dec6c045.png)
 
 - 분석 결과
 
- ![image](https://user-images.githubusercontent.com/32058390/161823039-fd81fa1d-b36d-4ebf-acfb-7ed425b0f463.pnㅎ)
+ ![image](https://user-images.githubusercontent.com/32058390/161827058-11d60b6d-8aa9-4133-a861-221ae3c4697c.png)
 
 **4. 기록장**
 
